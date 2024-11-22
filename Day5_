@@ -1,0 +1,30 @@
+//Day 5
+//functional programming
+var shoes =100;
+var stateTax=1.2;
+function totalPrice(shoes,tax){
+    return shoes*tax;
+}
+var toPay=totalPrice(shoes,stateTax);
+console.log(toPay);
+//OOP 1
+var purchase1 ={
+    shoes2:100,
+    stateTax2:1.2,
+    totalPrice2:function(){
+        var calculation = purchase1.shoes2*purchase1.stateTax2;
+        console.log('Total price: ', calculation);
+    }
+}
+purchase1.totalPrice2();
+
+//another sample
+var purchase3 ={
+    shoes3:100,
+    stateTax3:1.2,
+    totalPrice3:function(){
+        var calculation3 = purchase3.shoes3*purchase3.stateTax3;
+        console.log('Total price: ', calculation3);
+    }
+}
+purchase1.totalPrice3();

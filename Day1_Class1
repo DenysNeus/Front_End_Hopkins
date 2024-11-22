@@ -1,0 +1,14 @@
+console.log("%cHello, World", "color: green; font-size: 20px");
+var person;
+var person="Denzel"
+console.log(person)
+var greeting;
+var greeting="Hello";
+console.log(greeting+" "+person)
+var petDog="Mishel"
+var petCat="Pepper"
+console.log(petDog)
+console.log(petCat)
+console.log("My pet dog's name is: "+petDog)
+console.log("My pet dog's name is: "+petCat)
+

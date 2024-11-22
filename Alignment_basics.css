@@ -1,0 +1,9 @@
+.parent {
+    
+  }
+  .child {
+    width: 30%;
+    height: 20%;
+    float: right;
+    
+  }

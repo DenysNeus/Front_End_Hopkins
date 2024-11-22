@@ -1,0 +1,18 @@
+h1{
+    
+    color: purple;
+}
+
+#header1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color: green;
+    text-decoration: underline black dotted 10px;
+    
+}
+#header2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#header3{
+    color: blue;
+}
